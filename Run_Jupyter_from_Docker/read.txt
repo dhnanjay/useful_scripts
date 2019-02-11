@@ -1,1 +1,6 @@
 
+1. This bash script will install jupyer notebook inside a Docker container.
+2. This script is intent to be run inside a Docker Container
+3. While creating a Docker container, ensure port 8888 is exposed to the host OS.
+4. This is an inteactive script hence enter Docker container in an interactive mode
+
