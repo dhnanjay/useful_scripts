@@ -2,6 +2,6 @@
 1. This bash script will install jupyter notebook inside a Docker container.
 2. This script is intent to be run inside a Docker Container
 3. While creating a Docker container, ensure port 8888 is exposed to the host OS.
-4. This is an inteactive script hence enter Docker container in an interactive mode
+4. This is an interactive script hence enter Docker container in an interactive mode
 5. Follow https://deeplearnings.blogspot.com/2019/02/running-jupyter-notebook-from-docker.html to see a complete working example
 
