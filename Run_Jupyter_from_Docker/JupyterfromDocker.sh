@@ -11,4 +11,6 @@ apt-get install python3-distutils
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 
 python3 get-pip.py
 apt-get install jupyter
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root 
+jupyter notebook --generate-config
+jupyter notebook password
+nohup jupyter notebook --ip 0.0.0.0 --no-browser --allow-root 
