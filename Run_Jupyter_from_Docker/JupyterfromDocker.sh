@@ -13,4 +13,4 @@ python3 get-pip.py
 apt-get install jupyter
 jupyter notebook --generate-config
 jupyter notebook password
-nohup jupyter notebook --ip 0.0.0.0 --no-browser --allow-root &
+nohup jupyter notebook --ip 0.0.0.0 --no-browser --allow-root > error.log &
